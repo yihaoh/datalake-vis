@@ -79,7 +79,7 @@ st.markdown("""
 
 #######################
 # Load data
-all_queries = get_json_filenames_without_extension('data')
+all_queries = get_json_filenames_without_extension('frontend-data')
 
 
 #######################
@@ -92,7 +92,7 @@ def get_query_data(query_table_name):
     # st.session_state.pop('query_data')
     # st.session_state.pop('top_k_plan')
     # time.sleep(5)
-    st.session_state.query_data = json.load(open(f'data/{query_table_name}.json'))
+    st.session_state.query_data = json.load(open(f'frontend-data/{query_table_name}.json'))
     st.session_state.top_k_plans = st.session_state.query_data['plans']
 
 with st.sidebar:
@@ -102,7 +102,7 @@ with st.sidebar:
     # if st.button("Submit", on_click=get_query_data(selected_query)):
     if st.button("Submit", key='submit'):
         
-        st.session_state.query_data = json.load(open(f'data/{selected_query}.json'))
+        st.session_state.query_data = json.load(open(f'frontend-data/{selected_query}.json'))
         st.session_state.top_k_plans = st.session_state.query_data['plans']
         st.rerun()
 

@@ -1,0 +1,112 @@
+{
+    "query_table": {
+        "name": "mine_b.csv",
+        "column_names": ["col1", "col2", "col3"],
+        "column_types": ["categorical", "numerical", "textual"]
+    },
+    "result_tables": [
+        {
+            "name": "res_1.csv",
+            "column_names": ["col1", "col2", "col3"],
+            "column_types": ["categorical", "numerical", "textual"]
+        },
+        {
+            "name": "res_2.csv",
+            "column_names": ["col1", "col2", "col3"],
+            "column_types": ["categorical", "numerical", "textual"]
+        },
+        {
+            "name": "res_3.csv",
+            "column_names": ["col1", "col2", "col3"],
+            "column_types": ["categorical", "numerical", "textual"]
+        }
+    ],
+    "k": 5,
+    "plans": [
+        {
+            "title": "a vs. b",
+            "x_axis": "a",
+            "y_axis": "b",
+            "plot_data": {
+                "series_q": [5,3],
+                "series_a": [1,3],
+                "series_b": [2,4]
+            },
+            "categories": ["cat 1", "cat 2"],
+            "series_info": {
+                "series_q": [[0,0]],
+                "series_a": [[1,1],[3,2]],
+                "series_b": [[2,1]]
+            }
+        },
+        {
+            "title": "x vs. y",
+            "x_axis": "x",
+            "y_axis": "y",
+            "plot_data": {
+                "series_q": [5,3],
+                "series_a": [1,3],
+                "series_b": [2,4]
+            },
+            "categories": ["cat 1", "cat 2"],
+            "series_info": {
+                "series_q": [[0,0]],
+                "series_a": [[1,1],[3,2]],
+                "series_b": [[2,1]]
+            }
+        },
+        {
+            "title": "x vs. y",
+            "x_axis": "x",
+            "y_axis": "y",
+            "plot_data": {
+                "series_q": [5,3],
+                "series_a": [1,3],
+                "series_b": [2,4]
+            },
+            "categories": ["cat 1", "cat 2"],
+            "series_info": {
+                "series_q": [[0,0]],
+                "series_a": [[1,1],[3,2]],
+                "series_b": [[2,1]]
+            }
+        },
+        {
+            "title": "x vs. y",
+            "x_axis": "x",
+            "y_axis": "y",
+            "plot_data": {
+                "series_q": [5,3],
+                "series_a": [1,3],
+                "series_b": [2,4]
+            },
+            "categories": ["cat 1", "cat 2"],
+            "series_info": {
+                "series_q": [[0,0]],
+                "series_a": [[1,1],[3,2]],
+                "series_b": [[2,1]]
+            }
+        },
+        {
+            "title": "x vs. y",
+            "x_axis": "x",
+            "y_axis": "y",
+            "plot_data": {
+                "series_q": [5,3],
+                "series_a": [1,3],
+                "series_b": [2,4]
+            },
+            "categories": ["cat 1", "cat 2"],
+            "series_info": {
+                "series_q": [[0,0]],
+                "series_a": [[1,1],[3,2]],
+                "series_b": [[2,1]]
+            }
+        }
+    ]
+    
+    
+    
+   
+    
+}
