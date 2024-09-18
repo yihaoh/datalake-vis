@@ -90,7 +90,7 @@ with st.sidebar:
         
     selected_query = st.selectbox('Select a query table', all_queries)
     if st.button("Submit", key='submit'):
-        time.sleep(5)
+        # time.sleep(5)
         st.session_state.query_data = json.load(open(f'frontend-data/{selected_query}.json'))
         st.session_state.top_k_plans = st.session_state.query_data['plans']
         st.rerun()
