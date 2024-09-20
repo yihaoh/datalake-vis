@@ -13,3 +13,4 @@ venv
 .vscode
 tests/result*
 .ipynb_checkpoints
+.DS_Store
