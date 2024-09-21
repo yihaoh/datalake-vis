@@ -89,7 +89,7 @@ class VisInstance(ABC):
                 }
             )
 
-        json_obj["k"] = self.k
+        json_obj["k"] = len(self.top_k)
 
         json_obj["plans"] = []
         for p in self.top_k:
