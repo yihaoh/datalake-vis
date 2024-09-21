@@ -85,6 +85,23 @@ class ColVisPlan:
     def __lt__(self, other: "ColVisPlan"):
         return self.util_score < other.util_score
 
+    def export_to_dict(self) -> dict:
+        res = {}
+        res["title"] = f"{self.x_name} vs. {self.aggr.name}({self.y_name})"
+        res["x_axis"] = self.x_name
+        res["y_axis"] = self.y_name
+        res["categories"] = [str(k) for k in self.plot_data.keys()]
+
+        res["plot_data"] = {}
+        for v in self.plot_data.values():
+            for i, e in enumerate(v):
+                if str(self.x_series[i]) not in res["plot_data"]:
+                    res["plot_data"][str(self.x_series[i])] = []
+                res["plot_data"][str(self.x_series[i])].append(e)
+
+        res["series_info"] = {str(s): [[col.table_id, col.column_index] for col in s.columns] for s in self.x_series}
+        return res
+
     def compute_utility(self, util_func: callable):
         """compute utility using util_func"""
         self.util_score = util_func(self.plot_data)

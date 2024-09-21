@@ -35,6 +35,7 @@ def vis_args(request) -> "dict[str, str]":
         "preprocessed_data": request.config.getoption("--preprocessed_data"),
         "total_batch": request.config.getoption("--total_batch"),
         "text_format": request.config.getoption("--text_format"),
+        "target_query": request.config.getoption("--target_query"),
     }
 
 
@@ -67,6 +68,8 @@ def test_opt_perf_complete(vis_args):
     total_time = 0
     entire_test_start = time.time()
     for query, matchings in tus_res.items():
+        if vis_args["target_query"] != "all" and query != vis_args["target_query"]:
+            continue
         if query_cnt > 0 and query_cnt % 5 == 0:
             print(f"Complete {query_cnt}/{len(tus_res)} queries")
         # if query_cnt >= 1:

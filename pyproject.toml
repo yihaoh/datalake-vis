@@ -6,7 +6,7 @@ authors = ["yihao <yihao@megagon.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 numpy = "^1.23.2"
 pandas = "2.0.3"
 networkx = "3.1"

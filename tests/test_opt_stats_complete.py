@@ -31,6 +31,7 @@ def vis_args(request) -> "dict[str, str]":
         "bucket_num": request.config.getoption("--bucket_num"),
         "preprocessed_data": request.config.getoption("--preprocessed_data"),
         "text_format": request.config.getoption("--text_format"),
+        "target_query": request.config.getoption("--target_query"),
     }
 
 
@@ -61,6 +62,8 @@ def test_opt_complete(vis_args):
     total_time = 0
     entire_test_start = time.time()
     for query, matchings in tus_res.items():
+        if vis_args["target_query"] != "all" and query != vis_args["target_query"]:
+            continue
         if query_cnt > 0 and query_cnt % 5 == 0:
             print(f"Complete {query_cnt}/{len(tus_res)} queries")
         # if query_cnt >= 1:
@@ -177,6 +180,7 @@ def test_opt_complete(vis_args):
         query_times.append([plan_gen_time, plan_aggr_time, plan_util_time])
         col_vis_plan_util.append(plan_util)
         col_vis_plan_cnt.append(plan_cnt)
+        vis_ins.export_results_to_json(f"frontend/frontend-data/{query.split('.')[0]}.json")
 
     # write summary to log
     vis_res_log.write("=========================== Summary ===========================\n")

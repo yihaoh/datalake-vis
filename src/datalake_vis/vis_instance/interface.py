@@ -3,6 +3,7 @@
 import math
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Tuple
+import json
 
 import numpy as np
 import pandas as pd
@@ -13,7 +14,7 @@ from datalake_vis.col_vis_plan import ColVisPlan
 from datalake_vis.data_types import DataType
 from datalake_vis.series import Series
 from datalake_vis.table import Table
-from datalake_vis.utils import find_bucket
+from datalake_vis.utils import find_bucket, NumpyEncoder
 
 
 class VisInstance(ABC):
@@ -69,6 +70,33 @@ class VisInstance(ABC):
             table_name: {j: k for (j, k) in matching} for table_name, matching in kwarg["column_matchings"]
         }
         self.name_to_tables = {t.name: t for t in self.result_tables}
+
+    def export_results_to_json(self, filepath: str) -> None:
+        json_obj = {}
+        json_obj["query_table"] = {
+            "name": self.query_table.name,
+            "column_names": [c.column_name for c in self.query_table.columns],
+            "column_types": [c.type.name for c in self.query_table.columns],
+        }
+
+        json_obj["result_tables"] = []
+        for t in self.result_tables:
+            json_obj["result_tables"].append(
+                {
+                    "name": t.name,
+                    "column_names": [c.column_name for c in t.columns],
+                    "column_types": [c.type.name for c in t.columns],
+                }
+            )
+
+        json_obj["k"] = self.k
+
+        json_obj["plans"] = []
+        for p in self.top_k:
+            json_obj["plans"].append(p.export_to_dict())
+
+        with open(filepath, "w") as file:
+            json.dump(json_obj, file, indent=4, cls=NumpyEncoder)
 
     def _compute_buckets(self, x: int, x_series: List[Series]) -> Tuple[List, Any]:
         """Given a column data in DataFrame, compute buckets (can be categories or ranges)

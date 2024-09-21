@@ -26,7 +26,7 @@ class Series:
         return self.data
 
     def __str__(self) -> str:
-        return "(" + " , ".join([f"{col.table_name}({col.table_id}).{col.column_name}" for col in self.columns]) + ")"
+        return " + ".join([col.table_name.split(".")[0] for col in self.columns])
 
     def __repr__(self) -> str:
-        return " , ".join([f"{col.table_name}.{col.column_name}" for col in self.columns])
+        return "(" + " , ".join([f"{col.table_name}({col.table_id}).{col.column_name}" for col in self.columns]) + ")"

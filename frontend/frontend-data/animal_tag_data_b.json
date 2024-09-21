@@ -1,0 +1,1256 @@
+{
+    "query_table": {
+        "name": "animal_tag_data_b.csv",
+        "column_names": [
+            "animal_id",
+            "animal_type",
+            "breed_group",
+            "primary_breed",
+            "tag_no",
+            "tag_type",
+            "tag_subtype",
+            "price",
+            "tag_date",
+            "tag_exp",
+            "tag_stat"
+        ],
+        "column_types": [
+            "TEXTUAL",
+            "CATEGORICAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "NUMERICAL",
+            "NUMERICAL",
+            "NUMERICAL",
+            "TEXTUAL"
+        ]
+    },
+    "result_tables": [
+        {
+            "name": "animal_tag_data_b.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "breed_group",
+                "primary_breed",
+                "tag_no",
+                "tag_type",
+                "tag_subtype",
+                "price",
+                "tag_date",
+                "tag_exp",
+                "tag_stat"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_3.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "breed_group",
+                "primary_breed",
+                "tag_no",
+                "tag_type",
+                "tag_subtype",
+                "price",
+                "tag_date",
+                "tag_exp",
+                "tag_stat"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_1.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "breed_group",
+                "primary_breed",
+                "tag_no",
+                "tag_type",
+                "tag_subtype",
+                "price",
+                "tag_date",
+                "tag_exp",
+                "tag_stat"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "CATEGORICAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_0.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "breed_group",
+                "primary_breed",
+                "tag_no",
+                "tag_type",
+                "tag_subtype",
+                "price",
+                "tag_date",
+                "tag_exp",
+                "tag_stat"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "CATEGORICAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_6.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "color_group",
+                "primary_color",
+                "breed_group",
+                "primary_breed",
+                "status_date",
+                "location",
+                "animal_identity",
+                "tag_no",
+                "tag_type",
+                "tag_subtype"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_9.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "color_group",
+                "primary_color",
+                "breed_group",
+                "primary_breed",
+                "status_date",
+                "location",
+                "animal_identity",
+                "tag_no",
+                "tag_type",
+                "tag_subtype"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_8.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "color_group",
+                "primary_color",
+                "breed_group",
+                "primary_breed",
+                "status_date",
+                "location",
+                "animal_identity",
+                "tag_no",
+                "tag_type",
+                "tag_subtype"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_4.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "breed_group",
+                "primary_breed",
+                "tag_no",
+                "tag_type",
+                "tag_subtype",
+                "price",
+                "tag_date",
+                "tag_exp",
+                "tag_stat"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "CATEGORICAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_7.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "color_group",
+                "primary_color",
+                "breed_group",
+                "primary_breed",
+                "status_date",
+                "location",
+                "animal_identity",
+                "tag_no",
+                "tag_type",
+                "tag_subtype"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "animal_tag_data_a.csv",
+            "column_names": [
+                "animal_id",
+                "animal_type",
+                "secondary_color",
+                "breed_group",
+                "primary_breed",
+                "tag_no",
+                "tag_type",
+                "tag_subtype",
+                "vaccine",
+                "serial_no",
+                "vet_id",
+                "location_(1)"
+            ],
+            "column_types": [
+                "TEXTUAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL"
+            ]
+        }
+    ],
+    "k": 0,
+    "plans": [
+        {
+            "title": "tag_type vs. COUNT(animal_id)",
+            "x_axis": "tag_type",
+            "y_axis": "animal_id",
+            "categories": [
+                "(-180, 193)",
+                "(193, 566)",
+                "(566, 939)",
+                "(939, 1312)",
+                "(1312, 1685)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    3823,
+                    3823,
+                    1018,
+                    1018,
+                    159,
+                    159,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    16,
+                    4440,
+                    383,
+                    161,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    4998,
+                    2,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    27,
+                    4068,
+                    326,
+                    410,
+                    169
+                ],
+                "animal_tag_data_6": [
+                    5000,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_9": [
+                    5000,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_4": [
+                    4998,
+                    2,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_7": [
+                    4918,
+                    82,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_a": [
+                    34005,
+                    1445,
+                    246,
+                    132,
+                    0
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        0,
+                        5
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "animal_tag_data_6": [
+                    [
+                        5,
+                        11
+                    ]
+                ],
+                "animal_tag_data_9": [
+                    [
+                        6,
+                        5
+                    ]
+                ],
+                "animal_tag_data_4": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "animal_tag_data_7": [
+                    [
+                        9,
+                        5
+                    ]
+                ],
+                "animal_tag_data_a": [
+                    [
+                        10,
+                        8
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "tag_stat vs. AVG(price)",
+            "x_axis": "tag_stat",
+            "y_axis": "price",
+            "categories": [
+                "(-320, -55)",
+                "(-55, 210)",
+                "(210, 475)",
+                "(475, 740)",
+                "(740, 1005)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b + animal_tag_data_3": [
+                    12.794392523364486,
+                    11.73774385929445,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    0,
+                    8.887351778656127,
+                    13.027017291066283,
+                    6.320574162679426,
+                    0.06060606060606061
+                ],
+                "animal_tag_data_6": [
+                    490678.0229885057,
+                    474776.21715706587,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b + animal_tag_data_3": [
+                    [
+                        1,
+                        10
+                    ],
+                    [
+                        2,
+                        10
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        5
+                    ]
+                ],
+                "animal_tag_data_6": [
+                    [
+                        5,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "tag_type vs. SUM(price)",
+            "x_axis": "tag_type",
+            "y_axis": "price",
+            "categories": [
+                "(-180, 193)",
+                "(193, 566)",
+                "(566, 939)",
+                "(939, 1312)",
+                "(1312, 1685)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    48569.5,
+                    10425.0,
+                    44.0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    150.5,
+                    55975.5,
+                    2290.0,
+                    36.0,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    59126.0,
+                    19.0,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    346.5,
+                    55361.5,
+                    110.0,
+                    2410.0,
+                    82.0
+                ],
+                "animal_tag_data_6": [
+                    2376648000.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "animal_tag_data_6": [
+                    [
+                        5,
+                        11
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "tag_type vs. COUNT(animal_type)",
+            "x_axis": "tag_type",
+            "y_axis": "animal_type",
+            "categories": [
+                "(-180, 193)",
+                "(193, 566)",
+                "(566, 939)",
+                "(939, 1312)",
+                "(1312, 1685)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    3823,
+                    1018,
+                    159,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    16,
+                    4440,
+                    383,
+                    161,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    4998,
+                    2,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    27,
+                    4068,
+                    326,
+                    410,
+                    169
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "tag_type vs. COUNT(breed_group)",
+            "x_axis": "tag_type",
+            "y_axis": "breed_group",
+            "categories": [
+                "(-180, 193)",
+                "(193, 566)",
+                "(566, 939)",
+                "(939, 1312)",
+                "(1312, 1685)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    3823,
+                    1018,
+                    159,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    16,
+                    4440,
+                    383,
+                    161,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    4998,
+                    2,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    27,
+                    4068,
+                    326,
+                    410,
+                    169
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "primary_breed vs. COUNT(animal_id)",
+            "x_axis": "primary_breed",
+            "y_axis": "animal_id",
+            "categories": [
+                "(-241, 22)",
+                "(22, 286)",
+                "(286, 550)",
+                "(550, 813)",
+                "(813, 1077)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    915,
+                    915,
+                    3649,
+                    3649,
+                    417,
+                    417,
+                    19,
+                    19,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    838,
+                    4111,
+                    51,
+                    0,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    939,
+                    4061,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    416,
+                    4584,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_9": [
+                    19,
+                    688,
+                    4138,
+                    0,
+                    155
+                ],
+                "animal_tag_data_8": [
+                    3551,
+                    1449,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_4": [
+                    1083,
+                    3887,
+                    30,
+                    0,
+                    0
+                ],
+                "animal_tag_data_7": [
+                    13,
+                    669,
+                    3800,
+                    355,
+                    163
+                ],
+                "animal_tag_data_a": [
+                    27581,
+                    8246,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        3
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        3
+                    ]
+                ],
+                "animal_tag_data_9": [
+                    [
+                        6,
+                        10
+                    ]
+                ],
+                "animal_tag_data_8": [
+                    [
+                        7,
+                        9
+                    ]
+                ],
+                "animal_tag_data_4": [
+                    [
+                        8,
+                        3
+                    ]
+                ],
+                "animal_tag_data_7": [
+                    [
+                        9,
+                        10
+                    ]
+                ],
+                "animal_tag_data_a": [
+                    [
+                        10,
+                        9
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "tag_type vs. COUNT(price)",
+            "x_axis": "tag_type",
+            "y_axis": "price",
+            "categories": [
+                "(-180, 193)",
+                "(193, 566)",
+                "(566, 939)",
+                "(939, 1312)",
+                "(1312, 1685)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    3823.0,
+                    1018.0,
+                    159.0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    16.0,
+                    4440.0,
+                    383.0,
+                    161.0,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    4998.0,
+                    2.0,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    27.0,
+                    4068.0,
+                    326.0,
+                    410.0,
+                    169.0
+                ],
+                "animal_tag_data_6": [
+                    5000.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "animal_tag_data_6": [
+                    [
+                        5,
+                        11
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "tag_type vs. COUNT(primary_breed)",
+            "x_axis": "tag_type",
+            "y_axis": "primary_breed",
+            "categories": [
+                "(-180, 193)",
+                "(193, 566)",
+                "(566, 939)",
+                "(939, 1312)",
+                "(1312, 1685)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    3823,
+                    1018,
+                    159,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    16,
+                    4440,
+                    383,
+                    161,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    4998,
+                    2,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    27,
+                    4068,
+                    326,
+                    410,
+                    169
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "tag_type vs. MAX(price)",
+            "x_axis": "tag_type",
+            "y_axis": "price",
+            "categories": [
+                "(-180, 193)",
+                "(193, 566)",
+                "(566, 939)",
+                "(939, 1312)",
+                "(1312, 1685)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    60.5,
+                    25.0,
+                    15.0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    50.0,
+                    275.0,
+                    10.0,
+                    12.0,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    275.0,
+                    10.0,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    25.0,
+                    60.5,
+                    25.0,
+                    10.0,
+                    25.0
+                ],
+                "animal_tag_data_6": [
+                    548093.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "animal_tag_data_6": [
+                    [
+                        5,
+                        11
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "primary_breed vs. COUNT(breed_group)",
+            "x_axis": "primary_breed",
+            "y_axis": "breed_group",
+            "categories": [
+                "(-241, 22)",
+                "(22, 286)",
+                "(286, 550)",
+                "(550, 813)",
+                "(813, 1077)"
+            ],
+            "plot_data": {
+                "animal_tag_data_b": [
+                    915,
+                    915,
+                    3649,
+                    3649,
+                    417,
+                    417,
+                    19,
+                    19,
+                    0,
+                    0
+                ],
+                "animal_tag_data_3": [
+                    838,
+                    4111,
+                    51,
+                    0,
+                    0
+                ],
+                "animal_tag_data_1": [
+                    939,
+                    4061,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_0": [
+                    416,
+                    4584,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_9": [
+                    19,
+                    688,
+                    4138,
+                    0,
+                    155
+                ],
+                "animal_tag_data_8": [
+                    3551,
+                    1449,
+                    0,
+                    0,
+                    0
+                ],
+                "animal_tag_data_4": [
+                    1083,
+                    3887,
+                    30,
+                    0,
+                    0
+                ],
+                "animal_tag_data_7": [
+                    13,
+                    669,
+                    3800,
+                    355,
+                    163
+                ],
+                "animal_tag_data_a": [
+                    27581,
+                    8246,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "series_info": {
+                "animal_tag_data_b": [
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "animal_tag_data_3": [
+                    [
+                        2,
+                        3
+                    ]
+                ],
+                "animal_tag_data_1": [
+                    [
+                        3,
+                        3
+                    ]
+                ],
+                "animal_tag_data_0": [
+                    [
+                        4,
+                        3
+                    ]
+                ],
+                "animal_tag_data_9": [
+                    [
+                        6,
+                        10
+                    ]
+                ],
+                "animal_tag_data_8": [
+                    [
+                        7,
+                        9
+                    ]
+                ],
+                "animal_tag_data_4": [
+                    [
+                        8,
+                        3
+                    ]
+                ],
+                "animal_tag_data_7": [
+                    [
+                        9,
+                        10
+                    ]
+                ],
+                "animal_tag_data_a": [
+                    [
+                        10,
+                        9
+                    ]
+                ]
+            }
+        }
+    ]
+}
