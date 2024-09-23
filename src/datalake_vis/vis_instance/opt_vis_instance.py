@@ -42,18 +42,18 @@ class OptVisInstance(VisInstance):
             and self.query_table[x].is_date == t[self.column_matchings[t.name][x]].is_date
         ]
         # use union find to determine merging
-        u = UnionFind(elements=candidate_columns + [self.query_table[x]])
-        candidate_series = []
+        u = UnionFind(elements=candidate_columns)  #  + [self.query_table[x]])
+        candidate_series = [Series([self.query_table[x]], c_name)]
         for c1, c2 in find_all_pairs(candidate_columns):
             if c1.is_mergeable_with(c2):
                 u.union(c1, c2)
 
         unions = list(u.to_sets())
-        if len(unions) > 2:  # we are guaranteed with 2 series after merging query table column
-            for c in candidate_columns:
-                if self.query_table[x].is_mergeable_with(c):
-                    u.union(self.query_table[x], c)
-                    break
+        # if len(unions) > 2:  # we are guaranteed with 2 series after merging query table column
+        #     for c in candidate_columns:
+        #         if self.query_table[x].is_mergeable_with(c):
+        #             u.union(self.query_table[x], c)
+        #             break
         for union in unions:
             candidate_series.append(Series(list(union), c_name))
 
