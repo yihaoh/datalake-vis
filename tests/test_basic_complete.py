@@ -67,8 +67,6 @@ def test_basic_complete(vis_args):
             continue
         if query_cnt > 0 and query_cnt % 5 == 0:
             print(f"Complete {query_cnt}/{len(tus_res)} queries")
-        # if query != "SG_CSV0000000000000925__16.csv":
-        #     continue
         # if query_cnt > 5:
         #     break
         query_cnt += 1
@@ -76,14 +74,18 @@ def test_basic_complete(vis_args):
         args = {
             "query_path": f"{vis_args['query_path']}/{query}",
             "result_paths": [
-                f"{vis_args['datalake_path']}/{v[0]}" for i, v in enumerate(matchings) if i < vis_args["N"]
+                f"{vis_args['datalake_path']}/{v[0]}"
+                for i, v in enumerate(matchings)
+                if i < vis_args["N"] and v[0] != query
             ],
             "query_table_name": query,
-            "result_table_names": [v[0] for i, v in enumerate(matchings) if i < vis_args["N"]],
+            "result_table_names": [v[0] for i, v in enumerate(matchings) if i < vis_args["N"] and v[0] != query],
             "column_matchings": matchings,
             "orig_query_path": f"{vis_args['orig_query_path']}/{query}",
             "orig_result_paths": [
-                f"{vis_args['orig_datalake_path']}/{v[0]}" for i, v in enumerate(matchings) if i < vis_args["N"]
+                f"{vis_args['orig_datalake_path']}/{v[0]}"
+                for i, v in enumerate(matchings)
+                if i < vis_args["N"] and v[0] != query
             ],
             "bucket_num": int(vis_args["bucket_num"]),
             "preprocessed_data": vis_args["preprocessed_data"] == "True",
