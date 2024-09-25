@@ -30,35 +30,6 @@
     },
     "result_tables": [
         {
-            "name": "animal_tag_data_b.csv",
-            "column_names": [
-                "animal_id",
-                "animal_type",
-                "breed_group",
-                "primary_breed",
-                "tag_no",
-                "tag_type",
-                "tag_subtype",
-                "price",
-                "tag_date",
-                "tag_exp",
-                "tag_stat"
-            ],
-            "column_types": [
-                "TEXTUAL",
-                "CATEGORICAL",
-                "TEXTUAL",
-                "TEXTUAL",
-                "TEXTUAL",
-                "TEXTUAL",
-                "TEXTUAL",
-                "NUMERICAL",
-                "NUMERICAL",
-                "NUMERICAL",
-                "TEXTUAL"
-            ]
-        },
-        {
             "name": "animal_tag_data_3.csv",
             "column_names": [
                 "animal_id",
@@ -658,9 +629,9 @@
             }
         },
         {
-            "title": "animal_type vs. COUNT(animal_id)",
+            "title": "animal_type vs. SUM(price)",
             "x_axis": "animal_type",
-            "y_axis": "COUNT(animal_id)",
+            "y_axis": "SUM(price)",
             "categories": ["DOG", "CAT", "RABBIT", "BIRD", "GUINEA PIG", "FERRET", "LIVESTOCK", "NORMAL"],
             "plot_data": {
                 "animal_tag_data_b": [39880.0, 8504.5, 25.0, 0.0, 0.0, 9.0, 0.0, 0.0],
