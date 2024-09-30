@@ -1,0 +1,1429 @@
+{
+    "query_table": {
+        "name": "prescribing_CA_2014.csv",
+        "column_names": [
+            "PRACTICE",
+            "Year",
+            "Month",
+            "VTM_NM",
+            "VMP_NM",
+            "AMP_NM",
+            "Presentation",
+            "Strength",
+            "Total_Items",
+            "Total_Quantity",
+            "Gross_Cost",
+            "Actual_Cost"
+        ],
+        "column_types": [
+            "NUMERICAL",
+            "CATEGORICAL",
+            "CATEGORICAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "CATEGORICAL",
+            "CATEGORICAL",
+            "NUMERICAL",
+            "NUMERICAL",
+            "NUMERICAL",
+            "NUMERICAL"
+        ]
+    },
+    "result_tables": [
+        {
+            "name": "prescribing_NY_2014.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_MD_2016.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_HI_2013.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "prescribing_MN_2013.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "prescribing_OR_2015.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_MA_2016.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_IL_2015.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_PA_2016.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_FL_2014.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        }
+    ],
+    "k": 10,
+    "plans": [
+        {
+            "title": "Strength vs. MAX(Gross_Cost)",
+            "x_axis": "Strength",
+            "y_axis": "MAX(Gross_Cost)",
+            "categories": [
+                "100mg", "10mg", "200mg", "20mg", "500mg", "50mg", "5mg"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [1336.3, 1965.27, 2412.9, 1562.64, 642.72, 2608.2, 1340.0],
+                "prescribing_NY_2014": [1358.28, 894.03, 2500.63, 1222.94, 1309.44, 1276.2, 1474.0],
+                "prescribing_MD_2016": [1296.15, 3069.37, 1399.73, 1880.36, 1914.3, 1932.0, 1962.84],
+                "prescribing_HI_2013": [844.66, 837.2, 951.68, 850.32, 986.0, 830.0, 918.72],
+                "prescribing_MN_2013": [824.04, 809.14, 702.42, 937.0, 861.3, 935.88, 804.66],
+                "prescribing_OR_2015": [1543.8, 1361.6, 10429.17, 772.8, 1030.4, 1340.0, 1034.28],
+                "prescribing_MA_2016": [1311.76, 1365.69, 5680.42, 1577.8, 2378.5, 2728.5, 1319.56],
+                "prescribing_IL_2015": [2926.0, 3040.0, 3988.95, 1094.8, 3651.5, 2630.88, 2090.61],
+                "prescribing_PA_2016": [1337.45, 2725.44, 1266.66, 4050.25, 1962.84, 2599.9, 1389.2],
+                "prescribing_FL_2014": [1814.96, 1294.92, 1127.0, 997.88, 4887.6, 1962.84, 3918.77]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        7
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        7
+                    ]
+                ],
+                "prescribing_MD_2016": [
+                    [
+                        2,
+                        7
+                    ]
+                ],
+                "prescribing_HI_2013": [
+                    [
+                        3,
+                        7
+                    ]
+                ],
+                "prescribing_MN_2013": [
+                    [
+                        4,
+                        7
+                    ]
+                ],
+                "prescribing_OR_2015": [
+                    [
+                        5,
+                        7
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        7
+                    ]
+                ],
+                "prescribing_IL_2015": [
+                    [
+                        7,
+                        7
+                    ]
+                ],
+                "prescribing_PA_2016": [
+                    [
+                        8,
+                        7
+                    ]
+                ],
+                "prescribing_FL_2014": [
+                    [
+                        9,
+                        7
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Presentation vs. COUNT(*)",
+            "x_axis": "Strength",
+            "y_axis": "MAX(*)",
+            "categories": [
+                "Capsule", "Cream", "Eye drops", "Gastro-resistant tablet", "Modified-release capsule", "Modified-release tablet", "Oral solution"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014 + prescribing_NY_2014 + prescribing_FL_2014": [1135, 817, 707, 636, 721, 972, 669, 3343],
+                "prescribing_HI_2013 + prescribing_MN_2013": [779, 559, 461, 406, 506, 622, 460, 2207],
+                "prescribing_OR_2015 + prescribing_IL_2015": [753, 574, 474, 419, 500, 632, 446, 2202],
+                "prescribing_MD_2016 + prescribing_MA_2016 + prescribing_PA_2016": [1116, 824, 723, 669, 774, 942, 730, 3222]
+            },
+            "series_info": {
+                "prescribing_CA_2014 + prescribing_NY_2014 + prescribing_FL_2014":[
+                    [0, 6], [1, 6], [9, 6]
+                ],
+                "prescribing_HI_2013 + prescribing_MN_2013": [
+                    [3, 6], [4, 6]
+                ],
+                "prescribing_OR_2015 + prescribing_IL_2015": [
+                    [5, 6], [7, 6]
+                ],
+                "prescribing_MD_2016 + prescribing_MA_2016 + prescribing_PA_2016": [
+                    [2, 6], [6, 6], [8, 6]
+                ]
+            }
+        },
+        {
+            "title": "AMP_NM vs. MIN(Gross_Cost)",
+            "x_axis": "AMP_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-440, -142)",
+                "(-142, 156)",
+                "(156, 453)",
+                "(453, 751)",
+                "(751, 1049)"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    2.0,
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_NY_2014": [
+                    0,
+                    0.1,
+                    0.08,
+                    0.01,
+                    1.4
+                ],
+                "prescribing_MD_2016": [
+                    0.14,
+                    0.12,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_HI_2013": [
+                    0,
+                    0.01,
+                    0.01,
+                    0.9,
+                    0.35
+                ],
+                "prescribing_MN_2013": [
+                    0,
+                    0.16,
+                    0.01,
+                    0.01,
+                    0.47
+                ],
+                "prescribing_OR_2015": [
+                    0,
+                    0.26,
+                    2.15,
+                    0,
+                    0
+                ],
+                "prescribing_MA_2016": [
+                    0,
+                    0.19,
+                    0.24,
+                    0,
+                    0
+                ],
+                "prescribing_IL_2015": [
+                    0,
+                    0.01,
+                    0.77,
+                    0,
+                    0
+                ],
+                "prescribing_PA_2016": [
+                    0.24,
+                    0.13,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_FL_2014": [
+                    0,
+                    0.01,
+                    0.25,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        5
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "prescribing_MD_2016": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "prescribing_HI_2013": [
+                    [
+                        3,
+                        5
+                    ]
+                ],
+                "prescribing_MN_2013": [
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "prescribing_OR_2015": [
+                    [
+                        5,
+                        5
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        5
+                    ]
+                ],
+                "prescribing_IL_2015": [
+                    [
+                        7,
+                        5
+                    ]
+                ],
+                "prescribing_PA_2016": [
+                    [
+                        8,
+                        5
+                    ]
+                ],
+                "prescribing_FL_2014": [
+                    [
+                        9,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. MAX(Total_Items)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Total_Items",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    553.0,
+                    283.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_NY_2014": [
+                    12.0,
+                    390.0,
+                    195.0,
+                    3.0,
+                    0
+                ],
+                "prescribing_MD_2016": [
+                    349.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_HI_2013": [
+                    290.0,
+                    174.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_MN_2013": [
+                    14.0,
+                    210.0,
+                    190.0,
+                    43.0,
+                    0
+                ],
+                "prescribing_OR_2015": [
+                    5.0,
+                    36.0,
+                    289.0,
+                    171.0,
+                    13.0
+                ],
+                "prescribing_MA_2016": [
+                    146.0,
+                    627.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_IL_2015": [
+                    19.0,
+                    186.0,
+                    392.0,
+                    33.0,
+                    0
+                ],
+                "prescribing_PA_2016": [
+                    9.0,
+                    64.0,
+                    292.0,
+                    243.0,
+                    40.0
+                ],
+                "prescribing_FL_2014": [
+                    132.0,
+                    245.0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_MD_2016": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_HI_2013": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_MN_2013": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_OR_2015": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_IL_2015": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_PA_2016": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_FL_2014": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. AVG(Total_Items)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Total_Items",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    7.154721274175199,
+                    6.462809917355372,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_NY_2014": [
+                    1.7058823529411764,
+                    7.711936662606577,
+                    6.298023715415019,
+                    1.625,
+                    0
+                ],
+                "prescribing_MD_2016": [
+                    7.182666666666667,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_HI_2013": [
+                    7.193893947509373,
+                    5.205648720211827,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_MN_2013": [
+                    1.87012987012987,
+                    7.043866171003717,
+                    6.731660231660232,
+                    8.791666666666666,
+                    0
+                ],
+                "prescribing_OR_2015": [
+                    1.5294117647058822,
+                    3.123134328358209,
+                    8.309512074913751,
+                    5.088414634146342,
+                    5.076923076923077
+                ],
+                "prescribing_MA_2016": [
+                    4.170634920634921,
+                    7.992788461538462,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_IL_2015": [
+                    2.212121212121212,
+                    6.612094395280236,
+                    7.884080370942813,
+                    3.8634920634920635,
+                    0
+                ],
+                "prescribing_PA_2016": [
+                    2.0,
+                    3.209756097560976,
+                    7.123420796890184,
+                    7.430666666666666,
+                    4.525862068965517
+                ],
+                "prescribing_FL_2014": [
+                    4.707042253521127,
+                    7.61703056768559,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_MD_2016": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_HI_2013": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_MN_2013": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_OR_2015": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_IL_2015": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_PA_2016": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_FL_2014": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VTM_NM vs. MIN(Actual_Cost)",
+            "x_axis": "VTM_NM",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "(-169, -103)",
+                "(-103, -36)",
+                "(-36, 31)",
+                "(31, 98)",
+                "(98, 164)"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    1.0,
+                    0.59,
+                    0.01,
+                    0.38,
+                    0.48
+                ],
+                "prescribing_NY_2014": [
+                    1.23,
+                    0.67,
+                    0.01,
+                    0.13,
+                    0.23
+                ],
+                "prescribing_MD_2016 + prescribing_OR_2015 + prescribing_FL_2014 + prescribing_PA_2016 + prescribing_IL_2015": [
+                    0.01,
+                    0.01,
+                    0.02,
+                    0.13,
+                    0.25
+                ],
+                "prescribing_MA_2016": [
+                    1.06,
+                    0.4,
+                    0.17,
+                    0.61,
+                    1.42
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "prescribing_MD_2016 + prescribing_OR_2015 + prescribing_FL_2014 + prescribing_PA_2016 + prescribing_IL_2015": [
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        5,
+                        3
+                    ],
+                    [
+                        9,
+                        3
+                    ],
+                    [
+                        8,
+                        3
+                    ],
+                    [
+                        7,
+                        3
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. SUM(Total_Items)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Total_Items",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    18867.0,
+                    2346.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_NY_2014": [
+                    145.0,
+                    12663.0,
+                    7967.0,
+                    13.0,
+                    0
+                ],
+                "prescribing_MD_2016": [
+                    21548.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_HI_2013": [
+                    13431.0,
+                    5898.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_MN_2013": [
+                    144.0,
+                    9474.0,
+                    10461.0,
+                    211.0,
+                    0
+                ],
+                "prescribing_OR_2015": [
+                    52.0,
+                    837.0,
+                    16860.0,
+                    3338.0,
+                    66.0
+                ],
+                "prescribing_MA_2016": [
+                    2102.0,
+                    19950.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_IL_2015": [
+                    146.0,
+                    4483.0,
+                    15303.0,
+                    1217.0,
+                    0
+                ],
+                "prescribing_PA_2016": [
+                    68.0,
+                    658.0,
+                    7330.0,
+                    11146.0,
+                    1050.0
+                ],
+                "prescribing_FL_2014": [
+                    3342.0,
+                    17443.0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_MD_2016": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_HI_2013": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_MN_2013": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_OR_2015": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_IL_2015": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_PA_2016": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_FL_2014": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VTM_NM vs. MIN(Gross_Cost)",
+            "x_axis": "VTM_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-169, -103)",
+                "(-103, -36)",
+                "(-36, 31)",
+                "(31, 98)",
+                "(98, 164)"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    1.12,
+                    0.65,
+                    0.01,
+                    0.42,
+                    0.53
+                ],
+                "prescribing_NY_2014": [
+                    1.38,
+                    0.75,
+                    0.01,
+                    0.15,
+                    0.25
+                ],
+                "prescribing_HI_2013 + prescribing_MD_2016 + prescribing_OR_2015 + prescribing_FL_2014 + prescribing_MN_2013 + prescribing_PA_2016 + prescribing_IL_2015": [
+                    0.01,
+                    0.01,
+                    0.01,
+                    0.06,
+                    0.25
+                ],
+                "prescribing_MA_2016": [
+                    1.18,
+                    0.45,
+                    0.19,
+                    0.68,
+                    1.6
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "prescribing_HI_2013 + prescribing_MD_2016 + prescribing_OR_2015 + prescribing_FL_2014 + prescribing_MN_2013 + prescribing_PA_2016 + prescribing_IL_2015": [
+                    [
+                        3,
+                        3
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        5,
+                        3
+                    ],
+                    [
+                        9,
+                        3
+                    ],
+                    [
+                        4,
+                        3
+                    ],
+                    [
+                        8,
+                        3
+                    ],
+                    [
+                        7,
+                        3
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. SUM(Gross_Cost)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    175433.1,
+                    35498.29,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_NY_2014": [
+                    6595.9400000000005,
+                    116168.51,
+                    89987.25,
+                    145.93,
+                    0
+                ],
+                "prescribing_MD_2016": [
+                    231432.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_HI_2013": [
+                    119951.47,
+                    70272.27,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_MN_2013": [
+                    5366.47,
+                    82789.04,
+                    97578.67,
+                    1312.05,
+                    0
+                ],
+                "prescribing_OR_2015": [
+                    1576.93,
+                    20456.3,
+                    132986.47,
+                    62490.56,
+                    370.13
+                ],
+                "prescribing_MA_2016": [
+                    29723.43,
+                    199868.34,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_IL_2015": [
+                    8768.78,
+                    51903.51,
+                    163186.07,
+                    16250.37,
+                    0
+                ],
+                "prescribing_PA_2016": [
+                    3678.16,
+                    14211.44,
+                    88684.07,
+                    111624.39,
+                    23960.56
+                ],
+                "prescribing_FL_2014": [
+                    55602.33,
+                    146779.65,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_NY_2014": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_MD_2016": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_HI_2013": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_MN_2013": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_OR_2015": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_MA_2016": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_IL_2015": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_PA_2016": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_FL_2014": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. MIN(Gross_Cost)",
+            "x_axis": "Year",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_CA_2014": [
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_NY_2014 + prescribing_FL_2014": [
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_PA_2016 + prescribing_MA_2016 + prescribing_MD_2016": [
+                    0,
+                    0.12,
+                    0,
+                    0
+                ],
+                "prescribing_MN_2013 + prescribing_HI_2013": [
+                    0,
+                    0,
+                    0.01,
+                    0
+                ],
+                "prescribing_IL_2015 + prescribing_OR_2015": [
+                    0,
+                    0,
+                    0,
+                    0.01
+                ]
+            },
+            "series_info": {
+                "prescribing_CA_2014": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_NY_2014 + prescribing_FL_2014": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_PA_2016 + prescribing_MA_2016 + prescribing_MD_2016": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_MN_2013 + prescribing_HI_2013": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_IL_2015 + prescribing_OR_2015": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        }
+        
+    ]
+}

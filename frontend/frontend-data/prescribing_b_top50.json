@@ -1,0 +1,5745 @@
+{
+    "query_table": {
+        "name": "prescribing_b.csv",
+        "column_names": [
+            "PRACTICE",
+            "Year",
+            "Month",
+            "VTM_NM",
+            "VMP_NM",
+            "AMP_NM",
+            "Presentation",
+            "Strength",
+            "Total_Items",
+            "Total_Quantity",
+            "Gross_Cost",
+            "Actual_Cost"
+        ],
+        "column_types": [
+            "NUMERICAL",
+            "CATEGORICAL",
+            "CATEGORICAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "TEXTUAL",
+            "CATEGORICAL",
+            "CATEGORICAL",
+            "NUMERICAL",
+            "NUMERICAL",
+            "NUMERICAL",
+            "NUMERICAL"
+        ]
+    },
+    "result_tables": [
+        {
+            "name": "prescribing_0.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_3.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_12.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "prescribing_a.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "TEXTUAL",
+                "NUMERICAL",
+                "TEXTUAL"
+            ]
+        },
+        {
+            "name": "prescribing_8.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_11.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_4.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_9.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        },
+        {
+            "name": "prescribing_7.csv",
+            "column_names": [
+                "PRACTICE",
+                "Year",
+                "Month",
+                "VTM_NM",
+                "VMP_NM",
+                "AMP_NM",
+                "Presentation",
+                "Strength",
+                "Total_Items",
+                "Total_Quantity",
+                "Gross_Cost",
+                "Actual_Cost"
+            ],
+            "column_types": [
+                "NUMERICAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "TEXTUAL",
+                "CATEGORICAL",
+                "CATEGORICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL",
+                "NUMERICAL"
+            ]
+        }
+    ],
+    "k": 50,
+    "plans": [
+        {
+            "title": "VMP_NM vs. MAX(Total_Items)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Total_Items",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    553.0,
+                    283.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    12.0,
+                    390.0,
+                    195.0,
+                    3.0,
+                    0
+                ],
+                "prescribing_3": [
+                    349.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    290.0,
+                    174.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    14.0,
+                    210.0,
+                    190.0,
+                    43.0,
+                    0
+                ],
+                "prescribing_8": [
+                    5.0,
+                    36.0,
+                    289.0,
+                    171.0,
+                    13.0
+                ],
+                "prescribing_11": [
+                    146.0,
+                    627.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    19.0,
+                    186.0,
+                    392.0,
+                    33.0,
+                    0
+                ],
+                "prescribing_9": [
+                    9.0,
+                    64.0,
+                    292.0,
+                    243.0,
+                    40.0
+                ],
+                "prescribing_7": [
+                    132.0,
+                    245.0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. AVG(Total_Items)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Total_Items",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    7.154721274175199,
+                    6.462809917355372,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    1.7058823529411764,
+                    7.711936662606577,
+                    6.298023715415019,
+                    1.625,
+                    0
+                ],
+                "prescribing_3": [
+                    7.182666666666667,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    7.193893947509373,
+                    5.205648720211827,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    1.87012987012987,
+                    7.043866171003717,
+                    6.731660231660232,
+                    8.791666666666666,
+                    0
+                ],
+                "prescribing_8": [
+                    1.5294117647058822,
+                    3.123134328358209,
+                    8.309512074913751,
+                    5.088414634146342,
+                    5.076923076923077
+                ],
+                "prescribing_11": [
+                    4.170634920634921,
+                    7.992788461538462,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    2.212121212121212,
+                    6.612094395280236,
+                    7.884080370942813,
+                    3.8634920634920635,
+                    0
+                ],
+                "prescribing_9": [
+                    2.0,
+                    3.209756097560976,
+                    7.123420796890184,
+                    7.430666666666666,
+                    4.525862068965517
+                ],
+                "prescribing_7": [
+                    4.707042253521127,
+                    7.61703056768559,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VTM_NM vs. MIN(Actual_Cost)",
+            "x_axis": "VTM_NM",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "(-169, -103)",
+                "(-103, -36)",
+                "(-36, 31)",
+                "(31, 98)",
+                "(98, 164)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1.0,
+                    0.59,
+                    0.01,
+                    0.38,
+                    0.48
+                ],
+                "prescribing_0": [
+                    1.23,
+                    0.67,
+                    0.01,
+                    0.13,
+                    0.23
+                ],
+                "prescribing_3 + prescribing_8 + prescribing_7 + prescribing_9 + prescribing_4": [
+                    0.01,
+                    0.01,
+                    0.02,
+                    0.13,
+                    0.25
+                ],
+                "prescribing_11": [
+                    1.06,
+                    0.4,
+                    0.17,
+                    0.61,
+                    1.42
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "prescribing_3 + prescribing_8 + prescribing_7 + prescribing_9 + prescribing_4": [
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        5,
+                        3
+                    ],
+                    [
+                        9,
+                        3
+                    ],
+                    [
+                        8,
+                        3
+                    ],
+                    [
+                        7,
+                        3
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. SUM(Total_Items)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Total_Items",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    18867.0,
+                    2346.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    145.0,
+                    12663.0,
+                    7967.0,
+                    13.0,
+                    0
+                ],
+                "prescribing_3": [
+                    21548.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    13431.0,
+                    5898.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    144.0,
+                    9474.0,
+                    10461.0,
+                    211.0,
+                    0
+                ],
+                "prescribing_8": [
+                    52.0,
+                    837.0,
+                    16860.0,
+                    3338.0,
+                    66.0
+                ],
+                "prescribing_11": [
+                    2102.0,
+                    19950.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    146.0,
+                    4483.0,
+                    15303.0,
+                    1217.0,
+                    0
+                ],
+                "prescribing_9": [
+                    68.0,
+                    658.0,
+                    7330.0,
+                    11146.0,
+                    1050.0
+                ],
+                "prescribing_7": [
+                    3342.0,
+                    17443.0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VTM_NM vs. MIN(Gross_Cost)",
+            "x_axis": "VTM_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-169, -103)",
+                "(-103, -36)",
+                "(-36, 31)",
+                "(31, 98)",
+                "(98, 164)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1.12,
+                    0.65,
+                    0.01,
+                    0.42,
+                    0.53
+                ],
+                "prescribing_0": [
+                    1.38,
+                    0.75,
+                    0.01,
+                    0.15,
+                    0.25
+                ],
+                "prescribing_12 + prescribing_3 + prescribing_8 + prescribing_7 + prescribing_a + prescribing_9 + prescribing_4": [
+                    0.01,
+                    0.01,
+                    0.01,
+                    0.06,
+                    0.25
+                ],
+                "prescribing_11": [
+                    1.18,
+                    0.45,
+                    0.19,
+                    0.68,
+                    1.6
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        3
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        3
+                    ]
+                ],
+                "prescribing_12 + prescribing_3 + prescribing_8 + prescribing_7 + prescribing_a + prescribing_9 + prescribing_4": [
+                    [
+                        3,
+                        3
+                    ],
+                    [
+                        2,
+                        3
+                    ],
+                    [
+                        5,
+                        3
+                    ],
+                    [
+                        9,
+                        3
+                    ],
+                    [
+                        4,
+                        3
+                    ],
+                    [
+                        8,
+                        3
+                    ],
+                    [
+                        7,
+                        3
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. SUM(Gross_Cost)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    175433.1,
+                    35498.29,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    6595.9400000000005,
+                    116168.51,
+                    89987.25,
+                    145.93,
+                    0
+                ],
+                "prescribing_3": [
+                    231432.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    119951.47,
+                    70272.27,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    5366.47,
+                    82789.04,
+                    97578.67,
+                    1312.05,
+                    0
+                ],
+                "prescribing_8": [
+                    1576.93,
+                    20456.3,
+                    132986.47,
+                    62490.56,
+                    370.13
+                ],
+                "prescribing_11": [
+                    29723.43,
+                    199868.34,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    8768.78,
+                    51903.51,
+                    163186.07,
+                    16250.37,
+                    0
+                ],
+                "prescribing_9": [
+                    3678.16,
+                    14211.44,
+                    88684.07,
+                    111624.39,
+                    23960.56
+                ],
+                "prescribing_7": [
+                    55602.33,
+                    146779.65,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. COUNT(PRACTICE)",
+            "x_axis": "VMP_NM",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    2637,
+                    363,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    85,
+                    1642,
+                    1265,
+                    8,
+                    0
+                ],
+                "prescribing_3": [
+                    3000,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    1867,
+                    1133,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    77,
+                    1345,
+                    1554,
+                    24,
+                    0
+                ],
+                "prescribing_8": [
+                    34.0,
+                    268.0,
+                    2029.0,
+                    656.0,
+                    13.0
+                ],
+                "prescribing_11": [
+                    504.0,
+                    2496.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    66.0,
+                    678.0,
+                    1941.0,
+                    315.0,
+                    0
+                ],
+                "prescribing_9": [
+                    34.0,
+                    205.0,
+                    1029.0,
+                    1500.0,
+                    232.0
+                ],
+                "prescribing_7": [
+                    710.0,
+                    2290.0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. MIN(Gross_Cost)",
+            "x_axis": "Year",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    0.12,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    0.01,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    0.01
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. MIN(PRACTICE)",
+            "x_axis": "VMP_NM",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    23,
+                    1,
+                    1,
+                    14,
+                    0
+                ],
+                "prescribing_3": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    1,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    1,
+                    1,
+                    1,
+                    5,
+                    0
+                ],
+                "prescribing_8": [
+                    17.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    16.0
+                ],
+                "prescribing_11": [
+                    1.0,
+                    1.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    32.0,
+                    3.0,
+                    1.0,
+                    3.0,
+                    0
+                ],
+                "prescribing_9": [
+                    6.0,
+                    10.0,
+                    1.0,
+                    1.0,
+                    14.0
+                ],
+                "prescribing_7": [
+                    5.0,
+                    1.0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. MAX(Gross_Cost)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    2608.2,
+                    1336.3,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    614.74,
+                    1825.9,
+                    2500.63,
+                    35.3,
+                    0
+                ],
+                "prescribing_3": [
+                    3069.37,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    986.0,
+                    951.68,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    758.01,
+                    861.3,
+                    937.0,
+                    314.29,
+                    0
+                ],
+                "prescribing_8": [
+                    239.36,
+                    841.32,
+                    1361.6,
+                    10429.17,
+                    83.16
+                ],
+                "prescribing_11": [
+                    998.2,
+                    5680.42,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    2630.88,
+                    1127.0,
+                    3988.95,
+                    993.44,
+                    0
+                ],
+                "prescribing_9": [
+                    892.62,
+                    875.0,
+                    1754.9,
+                    4050.25,
+                    1962.84
+                ],
+                "prescribing_7": [
+                    4887.6,
+                    2260.24,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. MAX(PRACTICE)",
+            "x_axis": "Year",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    664,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    664.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    664.0,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    664,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    664.0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. AVG(Total_Items)",
+            "x_axis": "Year",
+            "y_axis": "Total_Items",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    7.071,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    6.928833333333333,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    7.094666666666667,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    6.603166666666667,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    7.050333333333334
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. MAX(Total_Items)",
+            "x_axis": "Year",
+            "y_axis": "Total_Items",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    553.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    390.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    627.0,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    290.0,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    392.0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. MIN(Gross_Cost)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0.01,
+                    0.27,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    0.1,
+                    0.08,
+                    0.01,
+                    2.49,
+                    0
+                ],
+                "prescribing_3": [
+                    0.12,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    0.01,
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    0.16,
+                    0.01,
+                    0.01,
+                    2.42,
+                    0
+                ],
+                "prescribing_8": [
+                    0.78,
+                    0.92,
+                    0.26,
+                    0.36,
+                    4.98
+                ],
+                "prescribing_11": [
+                    0.44,
+                    0.19,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    0.01,
+                    0.18,
+                    0.23,
+                    0.28,
+                    0
+                ],
+                "prescribing_9": [
+                    3.03,
+                    0.58,
+                    0.13,
+                    0.15,
+                    0.24
+                ],
+                "prescribing_7": [
+                    0.02,
+                    0.01,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. SUM(PRACTICE)",
+            "x_axis": "VMP_NM",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    912087,
+                    119077,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    31251,
+                    571079,
+                    427021,
+                    3166,
+                    0
+                ],
+                "prescribing_3": [
+                    1021388,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    645512,
+                    393109,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_a": [
+                    27841,
+                    447444,
+                    539672,
+                    7441,
+                    0
+                ],
+                "prescribing_8": [
+                    10673.0,
+                    93348.0,
+                    708922.0,
+                    221500.0,
+                    3976.0
+                ],
+                "prescribing_11": [
+                    181047.0,
+                    877407.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    23710.0,
+                    232008.0,
+                    680617.0,
+                    111639.0,
+                    0
+                ],
+                "prescribing_9": [
+                    12517.0,
+                    73692.0,
+                    352506.0,
+                    522901.0,
+                    83832.0
+                ],
+                "prescribing_7": [
+                    254821.0,
+                    795529.0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        4
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        4
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        4
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        4
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        4
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        4
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. SUM(Gross_Cost)",
+            "x_axis": "Year",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    210931.39,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    415279.61,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    703182.39,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    377269.97,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    457989.12
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. AVG(Gross_Cost)",
+            "x_axis": "Year",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    70.31046333333333,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    69.21326833333333,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    78.13137666666667,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    62.87832833333333,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    76.33152
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "VMP_NM vs. MIN(Actual_Cost)",
+            "x_axis": "VMP_NM",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "(-111, 172)",
+                "(172, 456)",
+                "(456, 739)",
+                "(739, 1022)",
+                "(1022, 1305)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0.01,
+                    0.24,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    0.1,
+                    0.07,
+                    0.01,
+                    2.49,
+                    0
+                ],
+                "prescribing_3": [
+                    0.11,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        4
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        4
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. COUNT(PRACTICE)",
+            "x_axis": "Year",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    3000,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    6000.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    9000.0,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    6000,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    6000.0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. SUM(PRACTICE)",
+            "x_axis": "Year",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1031164,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    2082867.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    3125290.0,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    2061019,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    2086393.0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. AVG(PRACTICE)",
+            "x_axis": "Year",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    343.72133333333335,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    347.1445,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    347.25444444444446,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    343.5031666666667,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    347.73216666666667
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. MIN(PRACTICE)",
+            "x_axis": "Year",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    1.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    1.0,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    1.0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. AVG(Total_Items)",
+            "x_axis": "Month",
+            "y_axis": "Total_Items",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    7.071,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    6.686166666666667
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    6.973,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    6.91,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    7.350666666666666,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    7.049666666666667,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. SUM(Total_Items)",
+            "x_axis": "Year",
+            "y_axis": "Total_Items",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    21213.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    41573.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    63852.0,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    39619.0,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    42302.0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. COUNT(Total_Quantity)",
+            "x_axis": "Month",
+            "y_axis": "Total_Quantity",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    3000,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    3000
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    3000,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    9000.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    3000.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    3000.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. MIN(Total_Items)",
+            "x_axis": "Year",
+            "y_axis": "Total_Items",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    1.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    1.0,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    1.0,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    1.0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MAX(Gross_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    2608.2,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    2500.63
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    3069.37,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    10429.17,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    5680.42,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    3988.95,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "AMP_NM vs. MIN(Total_Quantity)",
+            "x_axis": "AMP_NM",
+            "y_axis": "Total_Quantity",
+            "categories": [
+                "(-413, -122)",
+                "(-122, 169)",
+                "(169, 460)",
+                "(460, 751)",
+                "(751, 1042)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    10
+                ],
+                "prescribing_3": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        5
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. SUM(Actual_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    194968.77,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    196360.4
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    214175.3,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    612700.57,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    213576.64,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    221986.46,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. AVG(Gross_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    70.31046333333333,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    67.18689499999999
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    69.74637166666666,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    73.60233222222222,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    76.53058999999999,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    80.03624333333333,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. SUM(Total_Quantity)",
+            "x_axis": "Month",
+            "y_axis": "Total_Quantity",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    1295439,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1327910
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    1563690,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    4074387.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    1519065.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    1383372.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MAX(Total_Quantity)",
+            "x_axis": "Month",
+            "y_axis": "Total_Quantity",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    29450,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    28306
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    63299,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    40000.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    46770.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    39858.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MIN(Gross_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    0.01,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.01
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    0.01,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    0.01,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    0.19,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    0.01,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "AMP_NM vs. MIN(Actual_Cost)",
+            "x_axis": "AMP_NM",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "(-413, -122)",
+                "(-122, 169)",
+                "(169, 460)",
+                "(460, 751)",
+                "(751, 1042)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0.58,
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0.1,
+                    0.07,
+                    0.01,
+                    1.4
+                ],
+                "prescribing_3": [
+                    0.14,
+                    0.11,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        5
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "AMP_NM vs. MIN(PRACTICE)",
+            "x_axis": "AMP_NM",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "(-413, -122)",
+                "(-122, 169)",
+                "(169, 460)",
+                "(460, 751)",
+                "(751, 1042)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    14
+                ],
+                "prescribing_3": [
+                    3,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    0,
+                    1,
+                    3,
+                    15,
+                    283
+                ],
+                "prescribing_a": [
+                    0,
+                    1,
+                    5,
+                    1,
+                    3
+                ],
+                "prescribing_8": [
+                    0,
+                    1.0,
+                    14.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    1.0,
+                    5.0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    0,
+                    1.0,
+                    1.0,
+                    0,
+                    0
+                ],
+                "prescribing_9": [
+                    5.0,
+                    1.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_7": [
+                    0,
+                    1.0,
+                    3.0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        5
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        5
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        5
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        5
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        5
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        5
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Year vs. MAX(Gross_Cost)",
+            "x_axis": "Year",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "2014",
+                "2016",
+                "2013",
+                "2015"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    2608.2,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0 + prescribing_7": [
+                    4887.6,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    0,
+                    5680.42,
+                    0,
+                    0
+                ],
+                "prescribing_a + prescribing_12": [
+                    0,
+                    0,
+                    986.0,
+                    0
+                ],
+                "prescribing_4 + prescribing_8": [
+                    0,
+                    0,
+                    0,
+                    10429.17
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        1
+                    ]
+                ],
+                "prescribing_0 + prescribing_7": [
+                    [
+                        1,
+                        1
+                    ],
+                    [
+                        9,
+                        1
+                    ]
+                ],
+                "prescribing_9 + prescribing_11 + prescribing_3": [
+                    [
+                        8,
+                        1
+                    ],
+                    [
+                        6,
+                        1
+                    ],
+                    [
+                        2,
+                        1
+                    ]
+                ],
+                "prescribing_a + prescribing_12": [
+                    [
+                        4,
+                        1
+                    ],
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "prescribing_4 + prescribing_8": [
+                    [
+                        7,
+                        1
+                    ],
+                    [
+                        5,
+                        1
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. AVG(Total_Quantity)",
+            "x_axis": "Month",
+            "y_axis": "Total_Quantity",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    431.813,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    442.63666666666666
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    521.23,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    452.7096666666667,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    506.355,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    461.124,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MAX(Actual_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    2342.81,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    2341.05
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    2917.42,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    9866.93,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    5575.36,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    3821.77,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MIN(Actual_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    0.01,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0.01
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    0.11,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    0.01,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    0.17,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    0.01,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "AMP_NM vs. MIN(Gross_Cost)",
+            "x_axis": "AMP_NM",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "(-413, -122)",
+                "(-122, 169)",
+                "(169, 460)",
+                "(460, 751)",
+                "(751, 1042)"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0.64,
+                    0.01,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0.1,
+                    0.08,
+                    0.01,
+                    1.4
+                ],
+                "prescribing_3": [
+                    0.14,
+                    0.12,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_12": [
+                    0,
+                    0.01,
+                    0.01,
+                    0.9,
+                    0.35
+                ],
+                "prescribing_a": [
+                    0,
+                    0.16,
+                    0.01,
+                    0.01,
+                    0.47
+                ],
+                "prescribing_8": [
+                    0,
+                    0.26,
+                    2.15,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    0.19,
+                    0.24,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    0,
+                    0.01,
+                    0.77,
+                    0,
+                    0
+                ],
+                "prescribing_9": [
+                    0.24,
+                    0.13,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_7": [
+                    0,
+                    0.01,
+                    0.25,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        5
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        5
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        5
+                    ]
+                ],
+                "prescribing_12": [
+                    [
+                        3,
+                        5
+                    ]
+                ],
+                "prescribing_a": [
+                    [
+                        4,
+                        5
+                    ]
+                ],
+                "prescribing_8": [
+                    [
+                        5,
+                        5
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        5
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        5
+                    ]
+                ],
+                "prescribing_9": [
+                    [
+                        8,
+                        5
+                    ]
+                ],
+                "prescribing_7": [
+                    [
+                        9,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. COUNT(PRACTICE)",
+            "x_axis": "Month",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    3000,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    6000
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    6000,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    9000.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    3000.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    3000.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. SUM(PRACTICE)",
+            "x_axis": "Month",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    1031164,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    2071138
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    2043786,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    3134217.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    1058454.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    1047974.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. AVG(PRACTICE)",
+            "x_axis": "Month",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    343.72133333333335,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    345.18966666666665
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    340.631,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    348.2463333333333,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    352.818,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    349.32466666666664,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MIN(PRACTICE)",
+            "x_axis": "Month",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    1.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    1.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    1.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MAX(PRACTICE)",
+            "x_axis": "Month",
+            "y_axis": "PRACTICE",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    664,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    664
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    664,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    664.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    664.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    664.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. SUM(Total_Items)",
+            "x_axis": "Month",
+            "y_axis": "Total_Items",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    21213.0,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    40117.0
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    41838.0,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    62190.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    22052.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    21149.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. AVG(Actual_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Actual_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    64.98958999999999,
+                    0
+                ],
+                "prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    65.45346666666667
+                ],
+                "prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    71.39176666666667,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    68.0778411111111,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    71.19221333333334,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    73.99548666666666,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_0": [
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_3": [
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MIN(Total_Items)",
+            "x_axis": "Month",
+            "y_axis": "Total_Items",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    1.0,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1.0
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    1.0,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    1.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    1.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    1.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. MAX(Total_Items)",
+            "x_axis": "Month",
+            "y_axis": "Total_Items",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    553.0,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    390.0
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    349.0,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    292.0,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    627.0,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    392.0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "title": "Month vs. SUM(Gross_Cost)",
+            "x_axis": "Month",
+            "y_axis": "Gross_Cost",
+            "categories": [
+                "8",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "plot_data": {
+                "prescribing_b": [
+                    0,
+                    0,
+                    0,
+                    210931.39,
+                    0
+                ],
+                "prescribing_12 + prescribing_0": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    403121.37
+                ],
+                "prescribing_a + prescribing_3": [
+                    0,
+                    0,
+                    0,
+                    418478.23,
+                    0
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    0,
+                    0,
+                    662420.99,
+                    0,
+                    0
+                ],
+                "prescribing_11": [
+                    0,
+                    229591.77,
+                    0,
+                    0,
+                    0
+                ],
+                "prescribing_4": [
+                    240108.73,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "series_info": {
+                "prescribing_b": [
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                "prescribing_12 + prescribing_0": [
+                    [
+                        3,
+                        2
+                    ],
+                    [
+                        1,
+                        2
+                    ]
+                ],
+                "prescribing_a + prescribing_3": [
+                    [
+                        4,
+                        2
+                    ],
+                    [
+                        2,
+                        2
+                    ]
+                ],
+                "prescribing_9 + prescribing_8 + prescribing_7": [
+                    [
+                        8,
+                        2
+                    ],
+                    [
+                        5,
+                        2
+                    ],
+                    [
+                        9,
+                        2
+                    ]
+                ],
+                "prescribing_11": [
+                    [
+                        6,
+                        2
+                    ]
+                ],
+                "prescribing_4": [
+                    [
+                        7,
+                        2
+                    ]
+                ]
+            }
+        }
+    ]
+}
