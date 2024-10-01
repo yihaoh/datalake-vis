@@ -180,7 +180,9 @@ with col[1]:
     #     st.button("Visualize")
 
     if st.session_state.clicked_chart_index != None:
-        st.markdown(f"## {st.session_state.top_k_plans[st.session_state.clicked_chart_index]['title']}")
+        st.markdown(
+            f"## {st.session_state.clicked_chart_index + 1}: {st.session_state.top_k_plans[st.session_state.clicked_chart_index]['title']}"
+        )
     if st.session_state.clicked_chart_index is not None:
         # st.plotly_chart(generate_random_grouped_bar_chart(st.session_state.chart_data_categories, st.session_state.chart_data[st.session_state.clicked_chart_index] ,st.session_state.clicked_chart_index, 600))
         st.plotly_chart(
