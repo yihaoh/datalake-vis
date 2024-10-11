@@ -1,5 +1,4 @@
 # datalake-vis
-This repository hosts code from Yihao Hu's intern project in summer 2024.
 
 ## Repository Structure
 ```
@@ -114,9 +113,4 @@ All required parameters are specified in the `tests/conftest.py`. Here are a mor
 
 The default setting in the `conftest.py` is to run the tests on Santos dataset. To run the test on other query, please check out the commands under `test_bash_command`. Note that all `tests/test_*_complete.py` is a duplicate of the `find_top_k` method in their corresponding **VisInstance**. We have code duplicate here because we want to measure the running time for each step.
 
-## Frontend with Streamlit
-The current version of frontend has not been connected with the backend. The hardcoded demo data is in `frontend/data`. Make sure you have `Streamlit` and other relevant libraries installed (which is now part of the poetry package specified in `pyproject.toml`), and run the following command under `frontend` directory:
-```
-streamlit run datalake-vis-frontend.py
-```
-Following the prompt in the terminal, you should be able to access the webpage via browser.
+
