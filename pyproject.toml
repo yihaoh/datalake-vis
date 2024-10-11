@@ -2,7 +2,7 @@
 name = "datalake-vis"
 version = "0.1.0"
 description = ""
-authors = ["yihao <yihao@megagon.ai>"]
+authors = ["x <x@xx.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
