@@ -28,6 +28,7 @@ def vis_args(request) -> "dict[str, str]":
         "result_path": request.config.getoption("--result_path"),
         "threshold": int(request.config.getoption("--threshold").split(".")[1]),
         "K": int(request.config.getoption("--K")),
+        "N": int(request.config.getoption("--N")),
         "vis_ins": request.config.getoption("--vis_ins"),
         "bucket_num": request.config.getoption("--bucket_num"),
         "preprocessed_data": request.config.getoption("--preprocessed_data"),
@@ -47,7 +48,7 @@ def test_basic_complete(vis_args):
     tus_res_file.close()
 
     # RUN_RES_PATH = f"{vis_args['result_path']}/results_k{vis_args['K']}_t{vis_args['threshold']}_{vis_args['vis_ins']}"
-    RUN_RES_PATH = f"{vis_args['result_path']}/results_k{vis_args['N']}_t{vis_args['threshold']}_{vis_args['vis_ins']}"
+    RUN_RES_PATH = f"{vis_args['result_path']}/results_N{vis_args['N']}_t{vis_args['threshold']}_{vis_args['vis_ins']}_top{vis_args['K']}"
     os.makedirs(RUN_RES_PATH, exist_ok=True)
 
     vis_res_log = open(f"{RUN_RES_PATH}/run.log", "w")
@@ -157,7 +158,7 @@ def test_basic_complete(vis_args):
                         vis_err_log.write(f"Error when computing utility for {str(plan)}")
                         vis_err_log.write(str(e) + "\n" + traceback.format_exc())
 
-                    # vis_res_log.write(str(plan))
+                    vis_res_log.write(str(plan))
                     # if len(plan.plot_data.keys()) < 50:  # visualize only if not many categories
                     #     plot_vis_plan(
                     #         plan.plot_data,

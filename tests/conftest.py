@@ -4,8 +4,8 @@
 def pytest_addoption(parser):
     # data path
     parser.addoption("--table_search_result_path", action="store", default="data/santos/tus_results")
-    parser.addoption("--query_path", action="store", default="data/santos/query")
-    parser.addoption("--datalake_path", action="store", default="data/santos/datalake")
+    parser.addoption("--query_path", action="store", default="data/santos/query_new")
+    parser.addoption("--datalake_path", action="store", default="data/santos/datalake_new")
     parser.addoption("--result_path", action="store", default="data/santos/basic_results")
 
     # in case we need refer back to these

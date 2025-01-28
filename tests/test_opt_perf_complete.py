@@ -50,7 +50,7 @@ def test_opt_perf_complete(vis_args):
     tus_res_file.close()
 
     # RUN_RES_PATH = f"{vis_args['result_path']}/results_k{vis_args['K']}_t{vis_args['threshold']}_{vis_args['vis_ins']}"
-    RUN_RES_PATH = f"{vis_args['result_path']}/results_N{vis_args['N']}_t{vis_args['threshold']}_{vis_args['vis_ins']}_top_{vis_args['K']}"
+    RUN_RES_PATH = f"{vis_args['result_path']}/results_N{vis_args['N']}_t{vis_args['threshold']}_{vis_args['vis_ins']}_top{vis_args['K']}"
     os.makedirs(RUN_RES_PATH, exist_ok=True)
 
     vis_res_log = open(f"{RUN_RES_PATH}/run.log", "w")
@@ -241,7 +241,7 @@ def test_opt_perf_complete(vis_args):
                     heapq.heappushpop(vis_ins.top_k, plan)
 
                 # record
-                # vis_res_log.write(str(plan))
+                vis_res_log.write(str(plan))
                 plan_util += plan.util_score
                 plan_util_lower += plan.util_score
                 plan_util_upper += plan.util_score

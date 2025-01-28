@@ -46,7 +46,7 @@ def test_opt_complete(vis_args):
     tus_res_file.close()
 
     # RUN_RES_PATH = f"{vis_args['result_path']}/results_k{vis_args['K']}_t{vis_args['threshold']}_{vis_args['vis_ins']}"
-    RUN_RES_PATH = f"{vis_args['result_path']}/results_k{vis_args['N']}_t{vis_args['threshold']}_{vis_args['vis_ins']}"
+    RUN_RES_PATH = f"{vis_args['result_path']}/results_N{vis_args['N']}_t{vis_args['threshold']}_{vis_args['vis_ins']}_top{vis_args['K']}"
     os.makedirs(RUN_RES_PATH, exist_ok=True)
 
     vis_res_log = open(f"{RUN_RES_PATH}/run.log", "w")
@@ -165,7 +165,7 @@ def test_opt_complete(vis_args):
                         vis_err_log.write(str(plan.plot_data) + "\n")
                         continue
 
-                    # vis_res_log.write(str(plan))
+                    vis_res_log.write(str(plan))
                     # if len(plan.plot_data.keys()) < 50:  # visualize only if not many categories
                     #     plot_vis_plan(
                     #         plan.plot_data,
@@ -187,7 +187,7 @@ def test_opt_complete(vis_args):
         query_times.append([plan_gen_time, plan_aggr_time, plan_util_time])
         col_vis_plan_util.append(plan_util)
         col_vis_plan_cnt.append(plan_cnt)
-        vis_ins.export_results_to_json(f"frontend/frontend-data/{query.split('.')[0]}.json")
+        # vis_ins.export_results_to_json(f"frontend/frontend-data/{query.split('.')[0]}.json")
 
     # write summary to log
     vis_res_log.write("=========================== Summary ===========================\n")
