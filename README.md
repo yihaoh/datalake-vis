@@ -45,10 +45,10 @@ pip install poetry
 ```
 After installation, run the following commands to build the virtual environment:
 ```
-poetry init      # initialize poetry env at project home
-poetry lock      # fix dependencies
-poetry install   # istall python lib in virtual environment
-poetry shell     # activate the virtual environment
+poetry config virtualenvs.in-project true   # create virtual environment in the project directory
+poetry lock                                 # fix dependencies
+poetry install                              # istall python lib in virtual environment
+source .venv/bin/activate                   # activate the virtual environment
 ```
 To deactivate the poetry shell, simply run
 ```
@@ -113,4 +113,14 @@ All required parameters are specified in the `tests/conftest.py`. Here are a mor
 
 The default setting in the `conftest.py` is to run the tests on Santos dataset. To run the test on other query, please check out the commands under `test_bash_command`. Note that all `tests/test_*_complete.py` is a duplicate of the `find_top_k` method in their corresponding **VisInstance**. We have code duplicate here because we want to measure the running time for each step.
 
+### Running LakeBench Test
+Once git clone this repo, under the project home directory, please follow instructions under [Package Management](#package-management) to install the virtual environment. Once that is done, `cp` or `mv` the `data` folder under this project home directory. 
+
+All commands need to be executed are listed in `test_bash_command/test_lakebench.sh`. It is the best to leverage `tmux` to execute them in parallel, a tmux cheatsheet can be found [here](https://tmuxcheatsheet.com/). 
+
+1. To create a tmux session: `tmux new -s [session_name]`. e.g., `tmux new -s s1`.
+2. To detach from a session: `Ctrl + b d`. You can use this hot keys to exit the tmux session once the command is fired.
+3. To attach to a session: `tmux a -t [session_name]`.
+
+During the execution of a command, you can always attach to a session to view the progress. Once the execution is finished, the results will be in `data/open_data/opt_results` and `data/open_data/basic_results`.
 
