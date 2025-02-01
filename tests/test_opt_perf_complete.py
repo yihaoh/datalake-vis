@@ -127,7 +127,6 @@ def test_opt_perf_complete(vis_args):
         all_buckets: "dict[tuple[str,str], list]" = {}
         all_bucket_locators: "dict[tuple[str,str], Any]" = {}
         series_data = {}
-        # final_res = []
         total_time_sub = time.time()
         # for each x column
         for x in range(vis_ins.query_table.size()[1]):
@@ -156,8 +155,9 @@ def test_opt_perf_complete(vis_args):
                     all_plans[(xs[0].name, ys[0].name)][plan.aggr] = plan
                     series_data[(xs[0].name, ys[0].name)] = (xs, ys)
 
+
         while vis_ins.batch_idx < vis_ins.total_batch:
-            for series, plans in all_plans.items():
+            for series, plans in all_plans.items():                
                 try:
                     sub_start = time.time()
                     plan_data = vis_ins.optimize_computation(
@@ -182,7 +182,7 @@ def test_opt_perf_complete(vis_args):
                 except Exception as e:
                     vis_err_log.write(f"Error when computing GROUP-BY for (x,y): {series}\n")
                     vis_err_log.write(str(e) + "\n" + traceback.format_exc())
-                    break
+                    continue
 
             try:
                 sub_start = time.time()
@@ -207,7 +207,7 @@ def test_opt_perf_complete(vis_args):
 
                         # record discarded plan stats
                         # vis_res_log.write("prune the following:\n")
-                        # vis_res_log.write(str(all_plans[series][tp_all_plans[i][1].aggr]))
+                        vis_res_log.write(str(all_plans[series][tp_all_plans[i][1].aggr]))
                         plan_util += all_plans[series][tp_all_plans[i][1].aggr].util_score
                         plan_util_lower += tp_all_plans[i][0][1]
                         plan_util_upper += tp_all_plans[i][0][0]
@@ -219,7 +219,7 @@ def test_opt_perf_complete(vis_args):
             except Exception as e:
                 vis_err_log.write("Error when computing confidence interval and discard plan.\n")
                 vis_err_log.write(str(e) + "\n" + traceback.format_exc())
-                break
+                continue
 
             # if only k left, done
             if sum([len(plans) for plans in all_plans]) <= K:
