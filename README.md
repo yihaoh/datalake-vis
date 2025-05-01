@@ -1,5 +1,7 @@
 # datalake-vis
 
+This README contains general instruction on how to run the test. For instruction for reproducing the results outlined in the paper, please refer to the [REPRODUCTION.md](https://github.com/yihaoh/datalake-vis/blob/main/REPRODUCTION.md).
+
 ## Repository Structure
 ```
 .
